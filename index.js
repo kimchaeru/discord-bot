@@ -1,7 +1,7 @@
 const Discord = require("discord.js")
 const ListOfIntent = new Discord.Intents(["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES", "GUILD_MESSAGE_REACTIONS"])
 const client = new Discord.Client({ ws: ListOfIntent })
-const prefix = '채루야 '
+const prefix = '!'
 const token = process.env.token;
 const fs = require("fs")
 const Database = require("./classes/Database")
